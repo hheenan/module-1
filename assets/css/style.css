@@ -3,22 +3,23 @@
     padding: 0;
     margin: 0;
 }
+/* the body background color is white */
 body {
     background-color: #d9dcd6
 }
-
+/* the header background color is blue, the font is white */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header-h1 {
+/* the first header is 48 px */
+#header-h1 {
     display: inline-block;
     font-size: 48px;
 }   
-
+/* the navigation top padding is 15px the margin to the right 25px, the font size is 20px, the elements float right */
 .nav {
     padding-top: 15px;
     margin-right: 25px;
@@ -26,88 +27,98 @@ body {
     font-size: 20px;
     float: right;
 }
-
+/* the navigation unordered list displays in line block, with margin of 80 on the left */
 .nav ul li {
     display: inline-block;
     margin-left: 80px;
 }   
-
+/* the links are white, there is no text decoration, 8px between content and border, letter spacing at 1px, block display  */
 a {
     color: #ffffff;
     display: block;
     text-decoration: none;
     padding: 8px;
+    letter-spacing: 1px ;
 }
-
+/* paragraphs font size is 18px, 8px between content and border, text spaced at 1px */
 p {
-    font-size: 16px;
+    font-size: 18px;
     padding: 8px;
+    display: block;
 }
-
-.hero-img {
+/* the hero image fits the container, where the height is autho and max-width is 100% */
+#hero-img {
     height: auto;
     max-width: 100%;
     object-fit: contain;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* the content section has a margin of 20px to the top and left, display in line block container*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    margin-top: 20px;
 }
+/* the content card has a blue background color, color white and 50px between content and border */
 .content-card {
     margin-bottom: 20px;
+    margin-left: 20px; 
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
+/* the image has a maximum height of 200px */
 .content-card img {
     max-height: 200px;
 }
+/* this header is 20 px from the top and bottom, the font size is 40px*/
 .content-card h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 40px; 
 }
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
+/* this class dictates the image will float left with a margin of 25px to the right */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* this id dictates the image will float right with a margin of 25px */
+#float-right {
     float: right;
+    margin-left: 25px;
+}
+/* the benefit article has a background color of light blue and text color is white,  */
+.benefits {
+    margin: 20px 20px; 
+    padding: 30px;
+    float: right; 
     width: 20%;
-    height: 100%;
+    height: 100%; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    color:#ffffff;
+    color: white;
 }
+/* the benefit header is centered the space between the content and container is 10px */
 .benefit-h3 {
-    margin-bottom: 10px;
     text-align: center;
-    margin-top: 10px;
-}
+    padding: 10px;
+} 
+/* the benefit image color is black, displays on a new line taking the whole width */
 .benefit-img {
-    display: block;
+    display: block; 
     margin: 0 auto;
     max-width: 150px;
-    margin-bottom: 32px;
+    color: black;
 }
+/* the footer has 30px of space between content and border, the text alignment is centered */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+/* the footer header has a font size of 20px */
 .footer h2 {
     font-size: 20px;
 }
